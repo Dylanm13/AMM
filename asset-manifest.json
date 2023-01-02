@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AMM/static/css/main.3becfb39.css",
+    "main.js": "/AMM/static/js/main.432acdfb.js",
+    "static/media/Banner.jpg": "/AMM/static/media/Banner.c8fcae67f014b383aea6.jpg",
+    "static/media/Logo.png": "/AMM/static/media/Logo.715789223b25ecbc5168.png",
+    "index.html": "/AMM/index.html",
+    "main.3becfb39.css.map": "/AMM/static/css/main.3becfb39.css.map",
+    "main.432acdfb.js.map": "/AMM/static/js/main.432acdfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3becfb39.css",
+    "static/js/main.432acdfb.js"
+  ]
+}
