@@ -1,0 +1,16 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./components/banner";
+@import "./components/infos";
+@import "./components/artists";
+
+@import "./layout/navbar";
+@import "./layout/footer";
+
+@import "./pages/home";
+@import "./pages/pagenotfound";
+@import "./pages/artists";

@@ -1,0 +1,63 @@
+.artists {
+    animation: fadeInUp .6s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    color: $white;
+    @include media-query(small) {
+        display: block;
+        height: 715px;
+      }
+      @include media-query(medium) {
+        margin-top: 10em;
+        display: flex;
+        height: 255px;
+      }
+    &__photo {
+        border-radius: inherit;
+        object-fit: cover;
+        @include media-query(small) {
+            height: 340px;
+            width: 100%;
+          }
+          @include media-query(medium) {
+            height: inherit;
+            width: 240px;
+          }
+    }
+    &__name {
+        position: absolute;
+        @include media-query(small) {
+            font-size: 24px;
+          }
+          @include media-query(medium) {
+            font-size: 25px;
+            left: 11.3em;
+            top: -25px;
+          }
+          @include media-query(xlarge) {
+            font-size: 40px;
+            left: 6.96em;
+            top: -40px;
+          }
+    }
+    &__description {
+        position: absolute;
+        @include media-query(small) {
+            font-size: 16.5px;
+            top: 23em;
+          }
+          @include media-query(medium) {
+            font-size: 15px;
+            left: 18.85em;
+            top: 2em;
+          }
+          @include media-query(xlarge) {
+            font-size: 23px;
+            left: 12.15em;
+            top: 2em;
+          }
+    }
+}

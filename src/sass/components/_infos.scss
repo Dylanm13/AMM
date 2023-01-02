@@ -1,0 +1,28 @@
+.infos {
+    color: $white;
+    text-align: center;
+    animation: fadeInUp 600ms ease-in-out;
+    margin: 10% 0;
+    &__title {
+          @include media-query(small) {
+            font-size: 20px;
+          }
+          @include media-query(medium) {
+            font-size: 30px;
+          }
+          @include media-query(xlarge) {
+            font-size: 40px;
+          }
+    }
+    &__text {
+          @include media-query(small) {
+            font-size: 14px;
+          }
+          @include media-query(medium) {
+            font-size: 17px;
+          }
+          @include media-query(xlarge) {
+            font-size: 20px;
+          }
+    }
+}
