@@ -8,7 +8,7 @@
     color: $white;
     @include media-query(small) {
         display: block;
-        height: 800px;
+        height: 700px;
       }
       @include media-query(medium) {
         margin-top: 10em;
@@ -19,7 +19,7 @@
         border-radius: inherit;
         object-fit: cover;
         @include media-query(small) {
-            height: 340px;
+            height: 275px;
             width: 100%;
           }
           @include media-query(medium) {
@@ -47,7 +47,7 @@
         position: absolute;
         @include media-query(small) {
             font-size: 16.5px;
-            top: 23em;
+            top: 20em;
           }
           @include media-query(medium) {
             font-size: 15px;

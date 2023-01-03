@@ -162,7 +162,7 @@ code {
 @media only screen and (min-width: 350px) {
   .artists {
     display: block;
-    height: 715px;
+    height: 700px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -178,7 +178,7 @@ code {
 }
 @media only screen and (min-width: 350px) {
   .artists__photo {
-    height: 340px;
+    height: 275px;
     width: 100%;
   }
 }
@@ -216,7 +216,7 @@ code {
 @media only screen and (min-width: 350px) {
   .artists__description {
     font-size: 16.5px;
-    top: 23em;
+    top: 20em;
   }
 }
 @media only screen and (min-width: 768px) {
