@@ -10,7 +10,7 @@ function PageNotFound() { /* initialisation de la function PageNotFound */
           Oops ! The page that you looking for doesn't exist or is not available. {/* affichage du texte qui définit l'erreur */}
         </p>
       </div>
-      <Link to="/" className="error__link">
+      <Link to="/AMM" className="error__link">
         Back to home page {/* texte qui invite à retourner sur la page d'accueil entouré d'un Link qui mène à la page Home */}
       </Link>
     </div>

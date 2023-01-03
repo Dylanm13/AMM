@@ -26,11 +26,10 @@ code {
   position: relative;
   border-radius: 10px;
   -webkit-animation: fadeInUp 600ms ease-in-out;
-  animation: fadeInUp 600ms ease-in-out;
+          animation: fadeInUp 600ms ease-in-out;
   overflow: hidden;
   margin: 45px 0;
 }
-
 @media only screen and (max-width: 768px) {
   .thumb {
     height: 120px;
@@ -40,12 +39,11 @@ code {
   width: inherit;
   height: inherit;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: inherit;
   transform: scale(1);
   transition: transform 300ms;
 }
-
 .thumb__title {
   position: absolute;
   top: 40%;
@@ -56,7 +54,6 @@ code {
   text-transform: uppercase;
   transform: translate(-50%, -160%);
 }
-
 @media only screen and (min-width: 350px) {
   .thumb__title {
     font-size: 11px;
@@ -81,7 +78,6 @@ code {
   box-sizing: inherit;
   transform: translate(-50%, -130%);
 }
-
 @media only screen and (min-width: 350px) {
   .thumb__undertitle {
     font-size: 9px;
@@ -105,7 +101,6 @@ code {
   width: 100%;
   border-radius: inherit;
 }
-
 .thumb:hover > .thumb__img {
   transform: scale(1.05);
 }
@@ -120,6 +115,7 @@ code {
     transform: translateY(0);
   }
 }
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -134,10 +130,9 @@ code {
   color: #fff;
   text-align: center;
   -webkit-animation: fadeInUp 600ms ease-in-out;
-  animation: fadeInUp 600ms ease-in-out;
+          animation: fadeInUp 600ms ease-in-out;
   margin: 10% 0;
 }
-
 @media only screen and (min-width: 350px) {
   .infos__title {
     font-size: 20px;
@@ -168,9 +163,10 @@ code {
     font-size: 20px;
   }
 }
+
 .artists {
   -webkit-animation: fadeInUp 0.6s ease-in-out;
-  animation: fadeInUp 0.6s ease-in-out;
+          animation: fadeInUp 0.6s ease-in-out;
   border-radius: 10px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -178,7 +174,6 @@ code {
   width: 100%;
   color: #fff;
 }
-
 @media only screen and (min-width: 350px) {
   .artists {
     display: block;
@@ -200,9 +195,8 @@ code {
 .artists__photo {
   border-radius: inherit;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
-
 @media only screen and (min-width: 350px) {
   .artists__photo {
     height: 275px;
@@ -218,7 +212,6 @@ code {
 .artists__name {
   position: absolute;
 }
-
 @media only screen and (min-width: 350px) {
   .artists__name {
     font-size: 24px;
@@ -241,7 +234,6 @@ code {
 .artists__description {
   position: absolute;
 }
-
 @media only screen and (min-width: 350px) {
   .artists__description {
     font-size: 16.5px;
@@ -265,7 +257,6 @@ code {
 .artists__socials {
   position: absolute;
 }
-
 @media only screen and (min-width: 350px) {
   .artists__socials {
     height: 7%;
@@ -286,6 +277,7 @@ code {
     top: 12em;
   }
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -293,7 +285,6 @@ code {
   margin: 2%;
   padding-top: 20px;
 }
-
 @media only screen and (min-width: 350px) {
   .nav {
     margin: 2% 6%;
@@ -314,7 +305,6 @@ code {
   width: 33%;
   justify-content: space-around;
 }
-
 @media only screen and (min-width: 350px) {
   .nav__links {
     width: 60%;
@@ -339,7 +329,6 @@ code {
   text-transform: uppercase;
   text-decoration: none;
 }
-
 @media only screen and (min-width: 350px) {
   .nav__links--active {
     font-size: small;
@@ -364,7 +353,6 @@ code {
   font-weight: 500;
   text-transform: uppercase;
 }
-
 @media only screen and (min-width: 350px) {
   .nav__links--inactive {
     font-size: small;
@@ -384,7 +372,6 @@ code {
   height: 47px;
   margin-left: 6%;
 }
-
 @media only screen and (min-width: 350px) {
   .nav__logo {
     height: 35px;
@@ -400,6 +387,7 @@ code {
     height: 68px;
   }
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -410,7 +398,6 @@ code {
   justify-content: center;
   align-items: center;
 }
-
 @media only screen and (min-width: 768px) {
   .footer {
     justify-content: end;
@@ -419,7 +406,6 @@ code {
 .footer__logo {
   position: absolute;
 }
-
 @media only screen and (min-width: 350px) {
   .footer__logo {
     top: 25px;
@@ -443,7 +429,6 @@ code {
   font-weight: 500;
   font-size: 12px;
 }
-
 @media only screen and (min-width: 350px) {
   .footer__text {
     font-size: 16px;
@@ -461,6 +446,7 @@ code {
     font-size: 24px;
   }
 }
+
 .home {
   margin: 0 5%;
 }
@@ -473,7 +459,6 @@ code {
   justify-content: center;
   align-items: center;
 }
-
 @media only screen and (min-width: 768px) {
   .error {
     height: 725px;
@@ -483,13 +468,11 @@ code {
   margin: 0 40px;
   text-align: center;
 }
-
 .error__number {
   font-size: 96px;
   font-weight: 700;
   margin: 0;
 }
-
 @media only screen and (min-width: 350px) {
   .error__number {
     font-size: 160px;
@@ -511,7 +494,6 @@ code {
   margin: 0;
   margin-top: 10px;
 }
-
 @media only screen and (min-width: 350px) {
   .error__text {
     font-size: 24px;
@@ -538,12 +520,10 @@ code {
   text-decoration: none;
   transition: transform 300ms;
 }
-
 .error__link:hover {
   transform: scale(1.05);
   transition: transform 300ms;
 }
-
 @media only screen and (min-width: 768px) {
   .error__link {
     font-size: 16px;
@@ -554,9 +534,8 @@ code {
     font-size: 18px;
   }
 }
+
 .artists_page {
   padding: 50px;
   margin: 0 5%;
-} /*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
