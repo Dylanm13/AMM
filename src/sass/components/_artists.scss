@@ -8,11 +8,14 @@
     color: $white;
     @include media-query(small) {
         display: block;
-        height: 700px;
+        height: 800px;
       }
       @include media-query(medium) {
         margin-top: 10em;
         display: flex;
+        height: 300px;
+      }
+      @include media-query(xlarge) {
         height: 255px;
       }
     &__photo {
@@ -55,9 +58,26 @@
             top: 2em;
           }
           @include media-query(xlarge) {
-            font-size: 23px;
-            left: 12.15em;
+            font-size: 19px;
+            left: 14.7em;
             top: 2em;
+          }
+    }
+    &__socials {
+        position: absolute;
+        @include media-query(small) {
+            height: 7%;
+            top: 43em;
+          }
+          @include media-query(medium) {
+            height: 20%;
+            left: 17.5em;
+            top: 14.5em;
+          }
+          @include media-query(xlarge) {
+            height: 20%;
+            left: 17.5em;
+            top: 12em;
           }
     }
 }

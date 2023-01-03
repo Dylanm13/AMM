@@ -162,13 +162,18 @@ code {
 @media only screen and (min-width: 350px) {
   .artists {
     display: block;
-    height: 700px;
+    height: 800px;
   }
 }
 @media only screen and (min-width: 768px) {
   .artists {
     margin-top: 10em;
     display: flex;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .artists {
     height: 255px;
   }
 }
@@ -228,9 +233,32 @@ code {
 }
 @media only screen and (min-width: 1200px) {
   .artists__description {
-    font-size: 23px;
-    left: 12.15em;
+    font-size: 19px;
+    left: 14.7em;
     top: 2em;
+  }
+}
+.artists__socials {
+  position: absolute;
+}
+@media only screen and (min-width: 350px) {
+  .artists__socials {
+    height: 7%;
+    top: 43em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .artists__socials {
+    height: 20%;
+    left: 17.5em;
+    top: 14.5em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .artists__socials {
+    height: 20%;
+    left: 17.5em;
+    top: 12em;
   }
 }
 

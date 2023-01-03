@@ -10,7 +10,7 @@ const ArtistsPage = () => {
             {artists.map((artist) => {
                 return (
                     <article key={artist.id}>
-                        <Artists name={artist.name} photo={artist.photo} description={artist.description} />
+                        <Artists name={artist.name} photo={artist.photo} description={artist.description} socials={artist.socials}/>
                     </article>
                 )
             })}
